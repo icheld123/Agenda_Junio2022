@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda de Egresados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/><link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="normalize_reset.css">
+  <script src="js/vermas.js"></script>
+</head>
+<body>
+  <div class="overlay fade-out"></div>
+  <header class="header"></header>
+  <div id="contenedor">
+      <div id="main">
+          <h3>Estos son los eventos académicos del mes de Mayo.</h3>
+          <div id="paginacion">
+              <a href="#" class="button" id="prev">Anterior</a>
+              <a href="#" class="button" id="next">Siguiente</a>
+          </div>
+          <h4 style="width: 80%; margin: auto;">¡Para ingresar al evento, sólo debes dar clic en el ícono de la página bajo cada evento!</h4>
+          <div class="pagination" id="contenedor-anuncios">
+              <div class="post" id="page1">
+                  <div id="anuncio">
+                      <div id="contenido-anuncio">
+                          <p>Conversatorio: Socialización Suite Colombiana, primeros pasos (Prebanda). "El porro, la guabina y la cumbia".</p>
+                          <p class="fecha">Fecha: 01 de junio de 2022</p>
+                          <p class="fecha">Hora: 03:00 p.m - 05:00 p.m</p>
+                          <div id="botones-evento">
+                              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfN_1TC6vpKZ4NJEW9Jv2s2HM-V85tvNxaG0i7wwqKGN3d-Sw/closedform"
+                                  target="_blank" id="botones" class="boton boton-amarillo d-block">Inscribirse</a>
+                              <div id="via-evento">
+                                <a href="https://www.youtube.com/user/universidadunad" id="" target="_blank"><img
+                                  src="img/youtube.png" alt="Evento via youtube" class="thumbnails" /></a>
+                                  <a href="https://us02web.zoom.us/j/87645460767?pwd=aTl6cjdyVTArN09zL3NDMXRYQVJVdz09" id="" target="_blank"><img
+                                      src="img/zoom.png" alt="Evento via zoom" class="thumbnails" /></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="anuncio">
+                    <div id="contenido-anuncio">
+                        <p>Día mundial de la inocuidad de los alimentos en la UNAD</p>
+                        <p class="fecha">Fecha: 02 de junio de 2022</p>
+                        <p class="fecha">Hora: 02:00 p.m - 05:00 p.m</p>
+                        <p class="fecha">Inscripción a través de: olimpiadaunadista2022duitama@gmail.com</p>
+                    </div>
+                </div>
+                <div id="anuncio">
+                  <div id="contenido-anuncio">
+                      <p>Jornada Académica para el mejoramiento de las empresas lácteas del municipio de Belén (Boyacá) y Socialización resultados proyecto PG-19-008 UNAD</p>
+                      <p class="fecha">Fecha: 04 de junio de 2022</p>
+                      <p class="fecha">Hora: 08:45 a.m - 12:00 p.m</p>
+                      <div id="botones-evento">
+                        <div id="via-evento">
+                            <a href="https://youtu.be/tF5owAxja3g" id="" target="_blank"><img
+                                src="img/youtube.png" alt="Evento via youtube" class="thumbnails" /></a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post" id="page2">
+                <div id="anuncio">
+                    <div id="contenido-anuncio">
+                        <p>Filosofía más allá de la academia - Filosofía de la liberación (2a parte)</p>
+                        <p class="fecha">Fecha: 07 de junio de 2022</p>
+                        <p class="fecha">Hora: 03:00 p.m - 05:00 p.m</p>
+                        <div id="botones-evento">
+                            <div id="via-evento">
+                              <a href="https://www.youtube.com/user/universidadunad" id="" target="_blank"><img
+                                src="img/youtube.png" alt="Evento via youtube" class="thumbnails" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="anuncio">
+                  <div id="contenido-anuncio">
+                    <p>First International Congress on Pedagogical Mediation in Language Learning "Facing New Challenges in the 21st Century"</p>
+                    <p class="fecha">Fecha: 09 a 10 de junio de 2022</p>
+                    <p class="fecha">Hora: 02:00 p.m - 05:00 p.m</p>
+                    <a href="https://forms.gle/4VucdkrbaX69JKkr9"
+                          target="_blank" id="botones" class="boton boton-amarillo d-block">Inscribirse</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <footer class="footer"></footer>
+  <script  src="js/script.js"></script>
+  <script type="text/javascript">
+    $(function () {
+        $(".header").load("navbar.html");
+    });
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+  </script>
+</body>
+</html>
+

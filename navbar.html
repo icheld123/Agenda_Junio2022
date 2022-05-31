@@ -1,0 +1,54 @@
+<div class="container" ontouchstart="">
+    <nav class="flex flex-jc-sb flex-ai-c">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://www.unad.edu.co/images/footer/logo-unad-acreditacion-min.webp" alt="EasyBank" />
+        </a>
+      </div>
+      <!-- Links -->
+      <div class="main-navgation hide-for-mobile">
+        <a href="index.html">Inicio</a>
+        <a href="invil.html">Talleres INVIL</a>
+        <div class="dropdown">
+            <a href="#">Eventos <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <div class="dropdown-content">
+                <a href="academicos.html" target="_blank">Académicos</a><br>
+                <a href="biblioteca.html" target="_blank">Biblioteca</a><br>
+                <a href="investigacion.html" target="_blank">Investigación</a><br>
+                <a href="https://view.genial.ly/6283a1d0dd57760018e9f3ba/presentation-agenda-bienestar-mayo-23-al-27" target="_blank">Bienestar</a><br>
+                <a href="tvunad.html" target="_blank">Radio UNAD Virtual</a>
+            </div>
+        </div>
+        <!--<a href="index.html">Talleres INVIL</a>-->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfbaXSl-wCfIz0Eu3_QMq8b9sBrhtnc3tZWgJpn0uqe6zlKHw/viewform"
+        target="_blank">Encuesta de Servicios</a>
+        <div class="dropdown">
+            <a href="#">Ver más <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <div class="dropdown-content2">
+                <a href="https://camilariveraflye.wixsite.com/egresadosunad" target="_blank">Historias de Líderes Unadistas</a><br>
+                <a href="https://view.genial.ly/5f24ad16dfd2410db873d5f6/presentation-mes-agosto"
+                target="_blank">Portafolio de Servicios y Beneficios</a><br>
+                <a href="https://andressanchezkensh.wixsite.com/my-site" target="_blank">Grabaciones: Conferencias de Empleabilidad</a>
+            </div>
+        </div>
+      </div>
+      <!-- CTA Button -->
+      <a href="monitores.html" class="button hide-for-mobile" target="_blank">¡Conoce tu e-monitor!</a>
+      <!-- Hamburger Menu -->
+      <div class="menu hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+  <script  src="js/script.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('.gridItem').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
+  </script>
