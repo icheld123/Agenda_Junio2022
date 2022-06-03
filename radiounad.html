@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda de Egresados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="normalize_reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vermas.js"></script>
+</head>
+<body>
+    <div class="overlay fade-out"></div>
+    <header class="header"></header>
+    <div id="contenedor">
+        <div id="main">
+            <h3>¡Esta es la programación de Radio UNAD Virtual para hoy!</h3>
+            <div id="paginacion">
+                <a href="#" class="button" id="prev">Anterior</a>
+                <a href="#" class="button" id="next">Siguiente</a>
+            </div>
+            <div id="anuncio">
+                <div id="contenido-anuncio">
+                    <p>Programación de la semana</p>
+                    <p class="fecha">Programación 24/7. <br>Contacto: Skype ruvunad1</p>
+                </div>
+            </div>
+            <h4 style="width: 80%; margin: auto;">¡Para ingresar al evento, sólo debes dar clic en el ícono de la página bajo cada evento!</h4>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page1">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Sinfonía Jurídica</p>
+                            <p class="fecha">ECJP, Martes 8 a.m. (R) 7 p.m.</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=sinfonia"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Palabreando con Sofía</p>
+                            <p class="fecha">ECSAH, martes 9 a.m.</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=palabreando"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Red Infancias</p>
+                            <p class="fecha">ECEDU, martes 10 a.m</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=red+infancias"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page2">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Caminando por Nuestra Tierra</p>
+                            <p class="fecha">ECSAH, Martes 11 a.m.</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=caminando"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Leyenda Vallenata (R)</p>
+                            <p class="fecha">Zona Caribe, Martes 12 M</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=Leyenda+Vallenata"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Economía en breve</p>
+                            <p class="fecha">ECACEN, martes 2 p.m.</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=econom%C3%ADa+en+breve"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page3">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Salud Global</p>
+                            <p class="fecha">ECSAH, martes 3 p.m</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=salud+global"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>VISAE 4.0</p>
+                            <p class="fecha">VISAE, martes 4 p.m.</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=visae"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Retro Jazz</p>
+                            <p class="fecha">Zona Occidente, Medellín, martes 4:30 p.m.</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/?s=retro+jazz"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page4">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>Premio Internacional para la RUV - 3 Puesto</p>
+                            <p class="fecha">Concurso ALER, Ecuador 2014</p>
+                            <a href="https://ruv.unad.edu.co/ruvwp/eventos/evento-21-de-julio/"
+                                    target="_blank" id="botones" class="boton boton-amarillo d-block">Escuchar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"></footer>
+    <script  src="js/script.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $(".header").load("navbar.html");
+    });
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+    </script>
+</body>
+</html>
+
